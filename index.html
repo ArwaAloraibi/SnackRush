@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="./js/app.js"></script>  
+
+
+</head>
+<body>
+   <h1>Snack Rush</h1>
+    <main>
+        <section class="button" id="food-container" >
+            <!-- Interface Buttons -->
+             
+            <button id= "cupcake" draggable="true">🧁</button>
+            <button id= "ice-cream" draggable="true">🍨</button>
+            <button id= "popcorn"draggable="true">🍿</button>
+            <button id= "pizza" draggable="true">🍕</button>
+            <button id= "booba" draggable="true">🧋</button>
+            <button id= "candy" draggable="true">🍭</button>
+            <button id= "sushi" draggable="true">🍣</button>
+            <button id= "pretzel" draggable="true">🥨</button>
+            <button id= "chocolate" draggable="true">🍫</button>
+
+
+
+
+            <img id="basket"class="hidden"src="https://i.imgur.com/lnSxyNu.png" alt="basket">
+
+            <img id="pinkTaskOne" class="hidden" src="https://i.imgur.com/0PfaPuT.png" alt="pinktask1">
+            <img id="pinkTaskTwo" class="hidden" src="https://i.imgur.com/0PfaPuT.png" alt="pinktask2">
+            <img id="pinkTaskThree" class="hidden" src="https://i.imgur.com/0PfaPuT.png" alt="pinktask3">
+
+            <!-- now make messages for each task -->
+             <h2 class="hidden" id="taskOneMessage" ></h2>
+
+            <h2 class="hidden" id="taskTwoMessage" ></h2>
+
+            <h2 class="hidden" id="taskThreeMessage" ></h2>
+
+            <!-- <img id="yellowTaskOne" class="hidden"src="https://i.imgur.com/zhiofyl.png" alt="yellowtask1">
+            <img id="yellowTaskTwo" class="hidden"src="https://i.imgur.com/zhiofyl.png" alt="yellowtask2">
+            <img id="yellowTaskThree" class="hidden"src="https://i.imgur.com/zhiofyl.png" alt="yellowtask3"> -->
+
+            
+
+      
+        </section>
+
+
+        <section class="interface">
+
+            <button id="start" >▶ Play</button>
+
+        </section>
+
+
+
+        
+        <section> 
+
+        <button class="hidden" id="level1">Novice</button>
+        <button class="hidden" id="level2"> Elite</button>
+        <button class="hidden" id="pause">Pause</button>
+        <button class="hidden" id="resume">Resume</button>
+        <button class="hidden" id="hint">💡</button>
+
+        <!-- the hints for the elinte level -->
+        <button class="hidden" id="hint1">💡1</button>
+        <button class="hidden" id="hint2">💡2</button>
+        <button class="hidden" id="hint3">💡3</button>
+        
+            <h2 id="onecomplete" class="hidden" >1</h2>
+            <h2 id="twocomplete"class="hidden">2</h2>
+            <h2 id="threecomplete" class="hidden">3</h2>
+       
+        
+
+
+        
+        <div id="message" class="hidden">
+             <h2> Time is over! Try Again 💔</h2>
+        </div>
+              
+
+         <button id="restart" class="hidden"> Restart </button>
+         <button id="next" class="hidden">NEXT</button>
+        
+         <div class="timer-bar" id="timerBar"></div>
+         <div class="round-timer" id="roundTimer"></div>
+
+         
+
+         
+         <!-- STREAK  -->
+         <div class="streak" id="streak"></div>
+
+
+         <div class="round-timer" id="roundTimer"></div>
+
+        </section>
+
+    </main>
+</body>
+</html>
