@@ -9,7 +9,6 @@ body {
 
 }
 
-
 #basket{
   width: 350px;      
   height: auto;      
@@ -119,19 +118,15 @@ body {
   font-size: 40px;
   padding-top: 10px;
   position: fixed;
-
-
 }
 
 
 #threecomplete{
-
   margin-top: 50px;
   margin-left: 760px;
   font-size: 40px;
   padding-top: 10px;
   position: fixed;
-  
 }
 
 

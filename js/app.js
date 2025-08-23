@@ -70,7 +70,6 @@ let timeLeft;
 
 /*------------------------ Cached Element References ------------------------*/
 
-// let savedResult;
 let roundInterval; //to save the roundTime to clear it when the player choose wrong item or time is over
 let choice;
 
