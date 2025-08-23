@@ -147,4 +147,8 @@ Time is over=lose     win          |        Win   Poisined  Time is over
 //IF the player clicks the restart button 
        //Go back to the init function to start again
 
+       
+• Deployed Link: https://arwaaloraibi.github.io/SnackRush/
+
+
 
