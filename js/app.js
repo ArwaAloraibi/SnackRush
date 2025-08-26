@@ -40,6 +40,12 @@ const hint1BtnEl=document.querySelector('#hint1');
 const hint2BtnEl=document.querySelector('#hint2');
 const hint3BtnEl=document.querySelector('#hint3');
 
+const playNoviceBtnEl=document.querySelector("#playNovice");
+const PlayEliteBtnEl=document.querySelector("#playElite");
+
+const howToPlayNoviceEl=document.querySelector("#howToPlayNovice");
+const howToPlayEliteEl=document.querySelector("#howToPlayElite");
+
 
 
 /*---------------------------- Variables (state) ----------------------------*/
@@ -121,6 +127,9 @@ function init(){
   level1BtnEl.classList.remove('hidden'); // add  the level buttons 
   level2BtnEl.classList.remove('hidden');
 
+  //show the how to play buttons
+  playNoviceBtnEl.classList.remove('hidden');
+  PlayEliteBtnEl.classList.remove('hidden');
   
   resumeEl.classList.add('hidden'); //hide the pause and resume buttons
   pauseEl.classList.add('hidden');
@@ -148,9 +157,13 @@ function init(){
 //Handle level 1 (Novice)
 function handleLevel1() {
 
-  //hide the levels buttons
+  //hide the levels buttons and how to play buttons
   level1BtnEl.classList.add('hidden');
   level2BtnEl.classList.add('hidden');
+  playNoviceBtnEl.classList.add('hidden');
+  PlayEliteBtnEl.classList.add('hidden');
+  howToPlayEliteEl.classList.add('hidden');
+  howToPlayNoviceEl.classList.add('hidden');
 
   pinkTaskOneEl.classList.add('hidden'); //hide the tasks for the Elite level
   pinkTaskTwoEl.classList.add('hidden');
@@ -261,6 +274,13 @@ function handleLevel2() {
   pinkTaskTwoEl.classList.remove('hidden');
   pinkTaskThreeEl.classList.remove('hidden');
 
+  //hide the how to play buttons
+  playNoviceBtnEl.classList.add('hidden');
+  PlayEliteBtnEl.classList.add('hidden');
+  howToPlayEliteEl.classList.add('hidden');
+  howToPlayNoviceEl.classList.add('hidden');
+
+
 pauseEl.classList.remove('hidden'); // show pause
 resumeEl.classList.add('hidden');  // ensure resume stays hidden untill pause is clicked
 
@@ -342,8 +362,11 @@ basketEl.addEventListener("drop", (event) => {
 
 //-------------------------------------handlePlayerChoiceElite-----------------------------------------------
 function handlePlayerChoiceElite(event) {
+
 // Make all food emojis draggable
 BtnEl.forEach(button => {
+  //make the buttons dragable only and not clickable
+  button.removeEventListener('click', handlePlayerChoiceNovice);
   button.setAttribute("draggable", true);
 
   button.addEventListener("dragstart", (event) => {
@@ -617,6 +640,17 @@ function handleHint3(){
   }, 3000)
 
 }
+
+function handleHowToPlayNovice (){
+  howToPlayNoviceEl.classList.remove('hidden');
+  howToPlayEliteEl.classList.add('hidden');
+}
+
+function handleHowToPlayElite(){
+  howToPlayEliteEl.classList.remove('hidden');
+  howToPlayNoviceEl.classList.add('hidden');
+
+}
 /*----------------------------- Event Listeners -----------------------------*/
 
 
@@ -660,3 +694,6 @@ hint1BtnEl.addEventListener('click',handleHint1);
 hint2BtnEl.addEventListener('click',handleHint2);
 
 hint3BtnEl.addEventListener('click',handleHint3);
+
+playNoviceBtnEl.addEventListener('click',handleHowToPlayNovice);
+PlayEliteBtnEl.addEventListener('click',handleHowToPlayElite);

@@ -129,7 +129,54 @@ body {
   position: fixed;
 }
 
+#playNovice{
+ background: transparent;
+  color: white;
+  border: none;
+  margin-top: 387px;
+  margin-left: 270px;
+  position: fixed;
+  font-size: 20px;
+}
 
+
+#playElite{
+  background: transparent;
+  color: white;
+  border: none;
+  margin-top: 499px;
+  margin-left: 270px;
+  font-size: 20px;
+  position: fixed;
+}
+
+#howToPlayNovice{
+  height: 40px;
+  width: 600px;
+  position: fixed;
+  margin-top: 100px;
+  margin-left: 260px;
+  text-align: center;
+  padding: 7px 0px 0px 0px;
+  font-size: 20px;
+  background-color: rgb(192, 104, 117);
+  border-radius: 50px;
+  color: azure;
+
+}
+#howToPlayElite{
+   height: 50px;
+  width: 600px;
+  position: fixed;
+  margin-top: 100px;
+  margin-left: 260px;
+  text-align: center;
+  padding: 7px 0px 0px 0px;
+  font-size: 20px;
+  background-color: rgb(192, 104, 117);
+  border-radius: 50px;
+  color: azure;
+}
 #roundTimer{
   font-size: 24px;
   position:fixed;
