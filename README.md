@@ -2,11 +2,11 @@
 
 🌟Snack Rush
 
-• Main Elemnts
-1-foods array= [cupcake, pizza, booba, candy, popcorn, ice-cream, sushi, pretzel, chocolate]
-2-timer 1: show safe food in a message for 3s
-3-timer 2: 10s or 40s round timer 
-4-message 
+• Main Elemnts</br>
+</br>1-foods array= [cupcake, pizza, booba, candy, popcorn, ice-cream, sushi, pretzel, chocolate]
+</br>2-timer 1: show safe food in a message for 3s
+</br>3-timer 2: 10s or 40s round timer 
+</br>4-message 
 
 ![Home Page](https://i.imgur.com/6YY6q5V.png)
 ![Novice Level](https://i.imgur.com/B2q6bX5.png)
