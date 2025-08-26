@@ -9,8 +9,10 @@
 4-message 
 
 ![Home Page](https://i.imgur.com/6YY6q5V.png)
-
-
+![Novice Level](https://i.imgur.com/B2q6bX5.png)
+![Novice Level: Playing State](https://i.imgur.com/EHsHr13.png)
+![Novice Level: Lose State](https://i.imgur.com/I46gJrd.png)
+![Elite Level](https://i.imgur.com/Yd0JfHs.png)
 
 • How to play?
 
@@ -31,8 +33,8 @@
 ![Diagram](https://i.imgur.com/Wo0mIRI.png)
 
 • User Stories:
-🐞As a player, I want a start button so that I can start playing
-🐞As a player, I want a message to show the safe food and a timer showing beside them to know how much time I have in each round
+🐞As a player, I want a start button so that I can start playing</br>
+</br>🐞As a player, I want a message to show the safe food and a timer showing beside them to know how much time I have in each round
 🐞As a player, I want a the timer to be present in the left corner to keep track on the remaining time 
 🐞As a player, I want clear icons to show the available foods so I can choose from them 
 🐞As a player, I want a "next" pop up button so I know that I'm moving to the next level
