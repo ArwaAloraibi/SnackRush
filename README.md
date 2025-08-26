@@ -8,10 +8,14 @@
 </br>3-timer 2: 10s or 40s round timer 
 </br>4-message 
 
+
+### Home Page
 ![Home Page](https://i.imgur.com/6YY6q5V.png)
+### novice Level
 ![Novice Level](https://i.imgur.com/B2q6bX5.png)
 ![Novice Level: Playing State](https://i.imgur.com/EHsHr13.png)
 ![Novice Level: Lose State](https://i.imgur.com/I46gJrd.png)
+### Elite Level
 ![Elite Level](https://i.imgur.com/Yd0JfHs.png)
 
 • How to play?
@@ -111,6 +115,13 @@
 
 //IF the player clicks the restart button 
        //Go back to the init function to start again
+       
+
+## Attributions
+• Background image: https://i.imgur.com/EzvQVJ8.png [Done by AI and Canva]
+
+• task image: https://i.imgur.com/0PfaPuT.png [Done by AI]
+
 
 • Technologies Used: HTML, CSS and JavaScript
 
