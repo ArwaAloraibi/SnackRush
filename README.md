@@ -11,7 +11,7 @@
 
 ### Home Page
 ![Home Page](https://i.imgur.com/6YY6q5V.png)
-### novice Level
+### Novice Level
 ![Novice Level](https://i.imgur.com/B2q6bX5.png)
 ![Novice Level: Playing State](https://i.imgur.com/EHsHr13.png)
 ![Novice Level: Lose State](https://i.imgur.com/I46gJrd.png)
@@ -48,7 +48,7 @@
 </br>🐞As a player, I want a resume button so that I can start where I stopped
 </br>🐞As a player, I want a hint button so that I can have some help when I forget the safe foods/tasks
 
-## pseudocode
+## Pseudocode
 
 -------------------------------------------Define constants and variables-----------------------------------------
 
@@ -136,6 +136,7 @@
 </br>1- Make the DOM page shake when the player is poisoned.
 </br>2- Add background audio during gameplay, with different sounds for winning or losing.
 </br>3- Improve the interface to be smoother and ensure more responsive interactions with user inputs.
+</br>4- Add a next levl to the Elite level with yellow tasks and less round time
 
 
 
