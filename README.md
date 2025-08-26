@@ -114,8 +114,15 @@
 
 • Technologies Used: HTML, CSS and JavaScript
 
-       
+
 • Deployed Link: https://arwaaloraibi.github.io/SnackRush/
+
+
+• Future Enhancements:
+</br>>>1- Make the DOM page shake when the player is poisoned.
+</br>>>2- Add background audio during gameplay, with different sounds for winning or losing.
+</br>>>3- Improve the interface to be smoother and ensure more responsive interactions with user inputs.
+
 
 
 
