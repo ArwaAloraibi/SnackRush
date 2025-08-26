@@ -381,7 +381,7 @@ BtnEl.forEach(button => {
 
 // Allow dropping on basket
 basketEl.addEventListener("dragover", (event) => {
-  event.preventDefault(); // must allow drop
+  event.preventDefault(); 
 });
 
 // Drop logic
