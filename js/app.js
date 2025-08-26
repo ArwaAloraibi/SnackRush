@@ -129,7 +129,7 @@ function init(){
 
   //show the how to play buttons
   playNoviceBtnEl.classList.remove('hidden');
-  PlayEliteBtnEl.classList.remove('hidden');
+  playEliteBtnEl.classList.remove('hidden');
   
   resumeEl.classList.add('hidden'); //hide the pause and resume buttons
   pauseEl.classList.add('hidden');
@@ -161,7 +161,7 @@ function handleLevel1() {
   level1BtnEl.classList.add('hidden');
   level2BtnEl.classList.add('hidden');
   playNoviceBtnEl.classList.add('hidden');
-  PlayEliteBtnEl.classList.add('hidden');
+  playEliteBtnEl.classList.add('hidden');
   howToPlayEliteEl.classList.add('hidden');
   howToPlayNoviceEl.classList.add('hidden');
 
@@ -276,7 +276,7 @@ function handleLevel2() {
 
   //hide the how to play buttons
   playNoviceBtnEl.classList.add('hidden');
-  PlayEliteBtnEl.classList.add('hidden');
+  playEliteBtnEl.classList.add('hidden');
   howToPlayEliteEl.classList.add('hidden');
   howToPlayNoviceEl.classList.add('hidden');
 
@@ -696,4 +696,4 @@ hint2BtnEl.addEventListener('click',handleHint2);
 hint3BtnEl.addEventListener('click',handleHint3);
 
 playNoviceBtnEl.addEventListener('click',handleHowToPlayNovice);
-PlayEliteBtnEl.addEventListener('click',handleHowToPlayElite);
+playEliteBtnEl.addEventListener('click',handleHowToPlayElite);
