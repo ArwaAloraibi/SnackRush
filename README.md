@@ -28,47 +28,7 @@ if all selected foods are safe --> move to the next level = win
 
 • Diagram
 
-                                Start
-                                  |
-                                  |
-                     ------------    ------------
-                     |                          |
-                     |                          |
-                Elite Level                Novice Level
-                     |                          |
-                     |                          |
-               show the tasks           show the safe food                       
-                     |                          |
-                     |                          |
-               hide the tasks            hide the message
-                                  |
-                                  |
-                  show how much time is left in the round
-                                  |
-                                  |
-                              game start 
-              ----------------        ---------------- 
-              |                                      |
-              |                                      |
-         Elite Level                           Novice Level              
-              |                                      |
-              |                    |------------>    |
-      --------  --------           |         -----  ----- -----
-      |                |           |         |        |       |
-Time is over=lose     win          |        Win   Poisined  Time is over
-      |                |           |         |        |       |
-      |                |           |         |        |       |
-      |                |           -----Next Level    ---   ---
-      |                |                                  |
-      |                |                                  |
-      |                |                              Show Streak
-      |                |                                  |
-      |                |                                  |
-      --------------------------- -------------------------
-                                 |
-                                 |
-                              Restart    
-
+![Diagram](https://i.imgur.com/Wo0mIRI.png)
 
 • User Stories:
 🐞As a player, I want a start button so that I can start playing
