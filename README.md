@@ -119,7 +119,7 @@ __-------------------Wait for the user to click on a button---------------------
 ## Attributions
 • Background image: https://i.imgur.com/EzvQVJ8.png [Done by AI and Canva]
 
-• task image: https://i.imgur.com/0PfaPuT.png [Done by AI]
+• Task image: https://i.imgur.com/0PfaPuT.png [Done by AI]
 
 
 ## Technologies Used 
