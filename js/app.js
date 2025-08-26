@@ -104,6 +104,11 @@ function foodEmoji(foodName) {
 
 function init(){
 
+  BtnEl.forEach(button => {
+  button.removeEventListener('click', handlePlayerChoiceNovice);
+  button.removeEventListener('click', handlePlayerChoiceElite);
+});
+
   restartBtnElm.classList.add("hidden");
   gameMessage.classList.add('hidden');
   streakEl.classList.add('hidden');
