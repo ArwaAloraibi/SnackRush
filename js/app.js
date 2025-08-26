@@ -1,6 +1,6 @@
 /*-------------------------------- Constants --------------------------------*/
 
-const BtnEl=document.querySelectorAll('.button');  
+const btnEl=document.querySelectorAll('.button');  
 
 const level1BtnEl=document.querySelector('#level1');
 const level2BtnEl=document.querySelector('#level2');
@@ -104,7 +104,7 @@ function foodEmoji(foodName) {
 
 function init(){
 
-  BtnEl.forEach(button => {
+  btnEl.forEach(button => {
   button.removeEventListener('click', handlePlayerChoiceNovice);
   button.removeEventListener('click', handlePlayerChoiceElite);
 });
@@ -320,7 +320,7 @@ resumeEl.classList.add('hidden');  // ensure resume stays hidden untill pause is
   //Drag and drop
 
 // Make all food emojis in BtnEl draggable
-BtnEl.forEach(button => {
+btnEl.forEach(button => {
   button.setAttribute("draggable", true);
 
   button.addEventListener("dragstart", (event) => {
@@ -369,7 +369,7 @@ basketEl.addEventListener("drop", (event) => {
 function handlePlayerChoiceElite(event) {
 
 // Make all food emojis draggable
-BtnEl.forEach(button => {
+btnEl.forEach(button => {
   //make the buttons dragable only and not clickable
   button.removeEventListener('click', handlePlayerChoiceNovice);
   button.setAttribute("draggable", true);
@@ -666,7 +666,7 @@ level2BtnEl.addEventListener('click', handleLevel2);
 
 //add an eventlistiner to each icon for Novice level
 level1BtnEl.addEventListener('click', () => {
-  BtnEl.forEach(button => {
+  btnEl.forEach(button => {
     button.addEventListener('click', handlePlayerChoiceNovice);    
   });
 });
@@ -674,7 +674,7 @@ level1BtnEl.addEventListener('click', () => {
 
 // add an eventlistiner to each icon for Elite level
 level2BtnEl.addEventListener('click', () => {
-  BtnEl.forEach(button => {
+  btnEl.forEach(button => {
     button.addEventListener('click', handlePlayerChoiceElite);
   });
 });
