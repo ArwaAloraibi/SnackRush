@@ -72,7 +72,7 @@ __------ (cache) elements in variables that need to be accessed in the JavaScrip
 
 
 // let roundInterval; to save the roundTime to clear it when the player choose wrong item or time is over
-// let choice to save the player's choices 
+</br>// let choice to save the player's choices 
 
 __-----Add event listeners - use delegated event listeners to listen to multiple elements with a single listener-----__
 
