@@ -17,13 +17,13 @@
 ♦️Novice Level
 *memorize the safe food: 
 >>if you choose wrong item --> poisoned = lose
->>if all selected foods are safe --> move to the next level = win
->>>*goal: stay safe
+>>>if all selected foods are safe --> move to the next level = win
+>>>>*goal: stay safe
 
 ♦️Elite Level
 *momorize the tasks
 >>*finish all three tasks by dragging the correct food for each task into the basket to win
->>>*goal: finish all tasks before time is over
+>>>>*goal: finish all tasks before time is over
 
 
 • Diagram
