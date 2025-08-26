@@ -41,7 +41,7 @@ const hint2BtnEl=document.querySelector('#hint2');
 const hint3BtnEl=document.querySelector('#hint3');
 
 const playNoviceBtnEl=document.querySelector("#playNovice");
-const PlayEliteBtnEl=document.querySelector("#playElite");
+const playEliteBtnEl=document.querySelector("#playElite");
 
 const howToPlayNoviceEl=document.querySelector("#howToPlayNovice");
 const howToPlayEliteEl=document.querySelector("#howToPlayElite");
