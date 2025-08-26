@@ -48,12 +48,12 @@
 
 ## Pseudocode
 
--------------------------------------------Define constants and variables-----------------------------------------
+__-------------------------------------------Define constants and variables-----------------------------------------__
 
 //constant foods:[cupcake, pizza, sushi, candy, popcorn, ice-cream, pretzel, chocholate, booba];
 
 
--------------------Define the app’s state variables, but don’t assign values to them-------------------------------
+__-------------------Define the app’s state variables, but don’t assign values to them-------------------------------__
 
 
 // Define an array for the user's choices. To store the food item selected by the player
@@ -68,13 +68,13 @@
 
 
 
------- (cache) elements in variables that need to be accessed in the JavaScript code more than once-------------
+__------ (cache) elements in variables that need to be accessed in the JavaScript code more than once-------------__
 
 
 // let roundInterval; to save the roundTime to clear it when the player choose wrong item or time is over
 // let choice to save the player's choices 
 
------Add event listeners - use delegated event listeners to listen to multiple elements with a single listener-----
+__-----Add event listeners - use delegated event listeners to listen to multiple elements with a single listener-----__
 
 </br>// Add an event listener to the start button
 </br>// Add an event listener to the restart button
@@ -93,14 +93,14 @@
 </br>// Add an event listener to the resume button
 </br>// Add an event listener to the hint button
 
-------------Invoke the init function used to initialize all state variables----------------------------
+__------------Invoke the init function used to initialize all state variables----------------------------__
 
 
 // Using the "start" event listener set up, assign the player's choice to the variable userChoice
 
 // Using a random generator method, assign the computer's choice to the array safeFoods[]
 
--------------------Wait for the user to click on a button----------------------------------
+__-------------------Wait for the user to click on a button----------------------------------__
 
 //IF the user clicks "start" button and choose a level, then start the game and enter the level function to generate the computer choice 
 
@@ -134,7 +134,7 @@
 </br>1- Make the DOM page shake when the player is poisoned.
 </br>2- Add background audio during gameplay, with different sounds for winning or losing.
 </br>3- Improve the interface to be smoother and ensure more responsive interactions with user inputs.
-</br>4- Add a next levl to the Elite level with yellow tasks and less round time
+</br>4- Add a next level to the Elite level with yellow tasks and less round time
 
 
 
