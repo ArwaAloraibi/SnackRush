@@ -514,7 +514,7 @@ function handlePlayerChoiceNovice(event) {
     nextBtnEl.classList.remove('hidden');
     streakEl.classList.add('hidden');
     hintBtnEl.classList.add('hidden');
-    BtnEl.style.opacity='0.5';
+    btnEl.style.opacity='0.5';
   }
 
 }
