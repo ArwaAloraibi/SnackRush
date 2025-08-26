@@ -8,6 +8,9 @@
 3-timer 2: 10s or 40s round timer 
 4-message 
 
+![Home Page](https://i.imgur.com/6YY6q5V.png)
+
+
 
 • How to play?
 
