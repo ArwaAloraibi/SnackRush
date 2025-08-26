@@ -1,6 +1,6 @@
 /*-------------------------------- Constants --------------------------------*/
 
-const BtnEl=document.querySelectorAll('.button');  //this is for the Novice level
+const BtnEl=document.querySelectorAll('.button');  
 
 const level1BtnEl=document.querySelector('#level1');
 const level2BtnEl=document.querySelector('#level2');
