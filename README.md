@@ -1,8 +1,6 @@
-# SnackRush
+# 🌟SnackRush
 
-🌟Snack Rush
-
-• Main Elemnts
+## Main Elemnts
 </br>1-foods array= [cupcake, pizza, booba, candy, popcorn, ice-cream, sushi, pretzel, chocolate]
 </br>2-timer 1: show safe food in a message for 3s
 </br>3-timer 2: 10s or 40s round timer 
