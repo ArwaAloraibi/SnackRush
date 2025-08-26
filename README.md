@@ -18,7 +18,7 @@
 ### Elite Level
 ![Elite Level](https://i.imgur.com/Yd0JfHs.png)
 
-• How to play?
+## How to play?
 
 ♦️Novice Level
 *memorize the safe food: 
@@ -32,11 +32,11 @@
 >>>>*goal: finish all tasks before time is over
 
 
-• Diagram
+## Diagram
 
 ![Diagram](https://i.imgur.com/Wo0mIRI.png)
 
-• User Stories:
+## User Stories:
 </br>🐞As a player, I want a start button so that I can start playing
 </br>🐞As a player, I want a message to show the safe food and a timer showing beside them to know how much time I have in each round
 </br>🐞As a player, I want a the timer to be present in the left corner to keep track on the remaining time 
@@ -48,6 +48,7 @@
 </br>🐞As a player, I want a resume button so that I can start where I stopped
 </br>🐞As a player, I want a hint button so that I can have some help when I forget the safe foods/tasks
 
+## pseudocode
 
 -------------------------------------------Define constants and variables-----------------------------------------
 
@@ -123,13 +124,15 @@
 • task image: https://i.imgur.com/0PfaPuT.png [Done by AI]
 
 
-• Technologies Used: HTML, CSS and JavaScript
+## Technologies Used 
+</br> HTML, CSS and JavaScript
 
 
-• Deployed Link: https://arwaaloraibi.github.io/SnackRush/
+## Deployed Link
+</br> https://arwaaloraibi.github.io/SnackRush/
 
 
-• Future Enhancements:
+## Future Enhancements:
 </br>1- Make the DOM page shake when the player is poisoned.
 </br>2- Add background audio during gameplay, with different sounds for winning or losing.
 </br>3- Improve the interface to be smoother and ensure more responsive interactions with user inputs.
