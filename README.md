@@ -2,7 +2,7 @@
 
 🌟Snack Rush
 
-• Main Elemnts</br>
+• Main Elemnts
 </br>1-foods array= [cupcake, pizza, booba, candy, popcorn, ice-cream, sushi, pretzel, chocolate]
 </br>2-timer 1: show safe food in a message for 3s
 </br>3-timer 2: 10s or 40s round timer 
@@ -33,16 +33,16 @@
 ![Diagram](https://i.imgur.com/Wo0mIRI.png)
 
 • User Stories:
-🐞As a player, I want a start button so that I can start playing</br>
+</br>🐞As a player, I want a start button so that I can start playing
 </br>🐞As a player, I want a message to show the safe food and a timer showing beside them to know how much time I have in each round
-🐞As a player, I want a the timer to be present in the left corner to keep track on the remaining time 
-🐞As a player, I want clear icons to show the available foods so I can choose from them 
-🐞As a player, I want a "next" pop up button so I know that I'm moving to the next level
-🐞As a player, I want a win/lose pop up message
-🐞As a player, I want a restart button so that I can play again
-🐞As a player, I want a pause button so that I can stop the round
-🐞As a player, I want a resume button so that I can start where I stopped
-🐞As a player, I want a hint button so that I can have some help when I forget the safe foods/tasks
+</br>🐞As a player, I want a the timer to be present in the left corner to keep track on the remaining time 
+</br>🐞As a player, I want clear icons to show the available foods so I can choose from them 
+</br>🐞As a player, I want a "next" pop up button so I know that I'm moving to the next level
+</br>🐞As a player, I want a win/lose pop up message
+</br>🐞As a player, I want a restart button so that I can play again
+</br>🐞As a player, I want a pause button so that I can stop the round
+</br>🐞As a player, I want a resume button so that I can start where I stopped
+</br>🐞As a player, I want a hint button so that I can have some help when I forget the safe foods/tasks
 
 
 -------------------------------------------Define constants and variables-----------------------------------------
@@ -73,22 +73,22 @@
 
 -----Add event listeners - use delegated event listeners to listen to multiple elements with a single listener-----
 
-// Add an event listener to the start button
-// Add an event listener to the restart button
-// Add an event listener to the cupcake button
-// Add an event listener to the ice-cream button
-// Add an event listener to the popcorn button
-// Add an event listener to the pizza button
-// Add an event listener to the candy button
-// Add an event listener to the sushi button
-// Add an event listener to the pretzel button
-// Add an event listener to the booba button
-// Add an event listener to the chocolate button
-// Add an event listener to the Novice level button
-// Add an event listener to the elite level button
-// Add an event listener to the pause button
-// Add an event listener to the resume button
-// Add an event listener to the hint button
+</br>// Add an event listener to the start button
+</br>// Add an event listener to the restart button
+</br>// Add an event listener to the cupcake button
+</br>// Add an event listener to the ice-cream button
+</br>// Add an event listener to the popcorn button
+</br>// Add an event listener to the pizza button
+</br>// Add an event listener to the candy button
+</br>// Add an event listener to the sushi button
+</br>// Add an event listener to the pretzel button
+</br>// Add an event listener to the booba button
+</br>// Add an event listener to the chocolate button
+</br>// Add an event listener to the Novice level button
+</br>// Add an event listener to the elite level button
+</br>// Add an event listener to the pause button
+</br>// Add an event listener to the resume button
+</br>// Add an event listener to the hint button
 
 ------------Invoke the init function used to initialize all state variables----------------------------
 
